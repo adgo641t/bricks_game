@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkniod</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #111;
+        }
+        canvas{
+            border: 4px solid #fff;
+            border-bottom: transparent;
+            background: #000;
+            margin: 0 auto;
+            display: block;
+        }
+
+    </style>
+    <canvas></canvas>
+    <script>    
+        const canvas = document.querySelector('canvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = 400;
+        canvas.height = 400;
+    </script>
+</body>
+</html>
